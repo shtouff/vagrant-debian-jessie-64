@@ -195,7 +195,7 @@ if ! VBoxManage showvminfo "${BOX}" >/dev/null 2>&1; then
     --basefolder "${FOLDER_VBOX}"
 
   VBoxManage modifyvm "${BOX}" \
-    --memory 360 \
+    --memory 512 \
     --boot1 dvd \
     --boot2 disk \
     --boot3 none \
